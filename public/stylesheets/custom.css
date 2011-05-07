@@ -80,7 +80,7 @@ nav ul li a:hover{
 
 /* Sign up button */
 
-a.signup-button{
+a.signup_button{
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -91,4 +91,22 @@ a.signup-button{
   font-size: 150%;
   font-weight: bold;
   padding: 20px;
+}
+
+.round{
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+footer{
+  text-align: center;
+  margin-top: 10px;
+  width: 710px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer nav{
+  float: none;
 }
